@@ -13,8 +13,12 @@
  <link rel="stylesheet" href="/assets/css/style.css">
 
  <style>
+
+  .container {
+    width: 100%;
+  }
   .content {
-   width: 550px;
+   width: 100%;
   }
 
   .pic {
@@ -50,7 +54,13 @@
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
    <a class="navbar-brand" href="index.html">
-    <img src="./assets/images/letterA.png" height="50px" width="50px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+      <path fill-rule="evenodd"
+        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+    </svg>
    </a>
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
@@ -77,10 +87,50 @@
    <br>
    <h2>Portfolio</h2>
    <hr>
+    <div class="container">
+      <div class="d-flex flex-wrap flex-row">
+        <div class="p-2">
+          <div class="card" style="width: 18rem;">
+            <img src="https://d33wubrfki0l68.cloudfront.net/776c45ed6cf805de5a69c4838a1686ccf6e0d72d/b4e6c/project_personal_devmeetup.935ccbb4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DevMeetup</h5>
+              <p class="card-text">A social network for developers built with the MERN-stack. Backend-API is set-up with Node.js and Express including
+              authentication using JWT web tokens. The app uses Redux for client-side state management.</p>
+              <a href="https://www.patrickobermeier.dev/" class="btn btn-warning">See Live</a>
+            </div>
+          </div>
+        </div>
 
-   <h5>Coming Soon</h5>
-  
+        <br>
+          
+        <div class="p-2">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://iamrashy.netlify.app/assets/1.6ff03c0b88f28a23c8579492db7ad0dd.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Coronavirus Tracker</h5>
+              <p class="card-text">A Covid-19 (Coronavirus) tracker application, tracks cases all around the World using API. Made with React.js, Node.jsand Chart.js..</p>
+              <a href="https://covid19-tracker-mr62.web.app/" class="btn btn-warning
+              ">See Live</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="p-1">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://iamrashy.netlify.app/assets/7.276eedc285c2a7a7cbcad750eb71f233.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Portfolio</h5>
+              <p class="card-text">A single page complete responsive web portfolio to showcase your into, projects, skills, and many more information torepresent you digitally.</p>
+              <a href="https://kind-wing-da6d03.netlify.app/" class="btn btn-warning">See Live</a>
+            </div>
+          </div>
+      </div>
+    </div> 
+   
  </main>
 
  <footer class="bg-dark copyright">
@@ -90,7 +140,7 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
-
+ 
 </body>
 
 </body>
